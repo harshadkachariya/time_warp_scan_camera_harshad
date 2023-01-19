@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Time Warp Scan Camera</string>
+
+    <string name="tutorial">Swipe Down or Right to Start a Scan!</string>
+
+    <string name="ads_preference">Ads Preference</string>
+    <string name="promo_one">Your Ad preferences page also let you see how we\'re using data to show ads that we think will be most interesting for you and let you adjust how this data can be used to show you ads. Under Ad settings, you can:</string>
+    <string name="promo_onee">View common questions about how data is used to show you ads on this broweser</string>
+    <string name="promo_oneee">Choose whether or not we can show you personalised ads based on your activity on other websites, apps or offline.</string>
+    <string name="promo_oneeee">View advertisers that can choose to show their ads to certain audiences that you\'ve been included in based on your activity or information and decide whether these audiences can be used to show you ads.</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+
+    <string name="terms_and_condition">Terms And Condition</string>
+    <string name="promo_two">By The Applicable Law Within Or Outside Your Country Of Residence, Legal Process, Litigation Requests.</string>
+    <string name="promo_twoo">Your Prior Permission.</string>
+    <string name="promo_twooo">By Requests From Public And Governmental Authorities.</string>
+    <string name="promo_twoooo">To Protect Our Legal Rights And Interests.</string>
+    <string name="promo_twooooo">We DO NOT Collect Or Gather Any Personal Information While You Visit, Download Or Upgrade Any Application, Your Personal Information Like Your First Name And Last Name, Physical Addresses, Telephone Numbers, Fax Numbers And Information Stored Within Your Device. We Will Not Collect Or Store Your Personal Information And We Will Not Use, Transfer Or Disclose Your Personal Information, excepting the personal information that you submit to us when you create a user account, send an error report or participate in online surveys and other activities. In the following circumstances, we may disclose your personal information according to your wish or regulations by law.</string>
+    <string name="promo_twoooooo">We take precautions — including administrative, technical, and physical measures — to safeguard your personal information against loss, theft, and misuse, as well as against unauthorized access, disclosure, alteration, and destruction. When you use some products, services, or post your comments, the personal information you share is visible to other users and can be read, collected, or used by them. You are responsible for the personal information you choose to submit in these instances. Please take care when using these features. To make sure your personal information is secure; we communicate our privacy and security guidelines to all members and strictly enforce privacy safeguards within the team.</string>
+    <string name="promo_twooooooo">We do not collect, use or disclose personal information from children. If you are under 13, you may use our website when you are with a parent or guardian.We do not provide service focus on Children.</string>
+    <string name="i_agree_with_terms_amp_condition"><![CDATA[I agree with Terms & Condition]]></string>
+    <string name="accept">Accept</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="promo_three">This Privacy Policy Explain the complete detail about which kind of detail we gathered , Where we use , How to provide Security.\nWe provide complete detail which kind of data we gather when user install any application.</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="done">Done</string>
+
+    <string name="txt_policy3" >We DO NOT collect or gather any personal information while you visit, download or upgrade any application, your personal information like your first name and last name, physical addresses, telephone numbers, fax numbers and information stored within your device. We will not collect or store your Personal Information and we will not use, transfer or disclose your Personal Information, excepting the personal information that you submit to us when you create a user account, send an error report or participate in online surveys and other activities. In the following circumstances, we may disclose your personal information according to your wish or regulations by law:</string>
+    <string name="txt_policy4" >1. Your prior permission.
+\n2. By the applicable law within or outside your country of residence, legal process, litigatio`````n requests.
+        \n3. By requests from public and governmental authorities.
+\n4. To protect our legal rights and interests.</string>
+    <string name="txt_policy5" ><b>Permission in this Application:</b></string>
+    <string name="txt_policy6" ><b>INTERNET  : </b>This permission is used for check internet connection is on or off.</string>
+    <string name="txt_policy7" ><b>ACCESS_NETWORK_STATE  : </b>This permission is used in settings and notification toolbar, in order to view network connections.</string>
+    <string name="txt_policy8" ><b>CHANGE_NETWORK_STATE  : </b>This permission is used to allows applications to change network connectivity state.</string>
+    <string name="txt_policy9" ><b>ACCESS_WIFI_STATE  : </b>This permission is used in settings and notification toolbar in order to connect and disconnect from Wi-Fi.</string>
+    <string name="txt_policy10" ><b>CHANGE_WIFI_STATE  : </b>This permission is used allows applications to change Wi-Fi connectivity state.</string>
+    <string name="txt_policy11" ><b>READ_EXTERNAL_STORAGE  : </b>This permission is used for to read or to see data which available in sd card.</string>
+    <string name="txt_policy12" ><b>WRITE_EXTERNAL_STORAGE  : </b>This permission is used for modify in image from sd card.</string>
+    <string name="txt_policy13" ><b>RECORD_AUDIO  : </b>This permission is used to display the music spectrum.</string>
+    <string name="txt_policy14" ><b>WAKE_LOCK  : </b>This permission allows using PowerManager WakeLocks to keep processor from sleeping or screen from dimming.</string>
+    <string name="txt_policy15" ><b>FOREGROUND_SERVICE  : </b>This permission is used to allow a regular application to use Service.startForeground.</string>
+    <string name="txt_policy16" ><b>MODIFY_AUDIO_SETTINGS  : </b>This permission is used to allow an application to modify global audio settings.</string>
+    <string name="txt_policy17" ><b>SYSTEM_ALERT_WINDOW  : </b>This permission is used to allow an app to create windows using the type WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY, shown on top of all other apps.</string>
+    <string name="txt_policy18" ><b>VIBRATE  : </b>This permission is used for access to the vibrator.</string>
+    <string name="txt_policy19" ><b>WRITE_SETTINGS  : </b>This permission is used to allows an application to read or write the system settings.</string>
+    <string name="txt_policy20" ><b>MEDIA_CONTENT_CONTROL  : </b>This permission is used to allows an application to know what content is playing and control its playback.</string>
+    <string name="txt_policy21" ><b>PROTECTION YOUR PERSONAL INFORMATION</b></string>
+    <string name="txt_policy22" >We take precautions — including administrative, technical, and physical measures — to safeguard your personal information against loss, theft, and misuse, as well as against unauthorized access, disclosure, alteration, and destruction.
+\nWhen you use some products, services, or post your comments, the personal information you share is visible to other users and can be read, collected, or used by them.
+\nYou are responsible for the personal information you choose to submit in these instances.
+\nPlease take care when using these features.
+\nTo make sure your personal information is secure; we communicate our privacy and security guidelines to all members and strictly enforce privacy safeguards within the team.
+</string>
+    <string name="txt_policy23" ><b>Third Parties Sites</b></string>
+    <string name="txt_policy24" >We use Google Admob SDK for advertisements in our applications.
+\nRemember, there could be errors in the programming, and sometime programming errors may cause unwanted side effects.carry advertisements from other companies.</string>
+    <string name="txt_policy25" ><b>Children</b></string>
+    <string name="txt_policy26" >We do not collect, use or disclose personal information from children.
+\nIf you are under 13, you may use our website when you are with a parent or guardian.
+\nWe do not provide service focus on Children.</string>
+    <string name="txt_policy27" ><b>Update Privacy Policy</b></string>
+    <string name="txt_policy28" >Our Privacy Policy may change from time to time, we will post any privacy policy changes on this page, so please review it periodically.</string>
+    <string name="txt_policy29" ><b>Contacting Us</b></string>
+    <string name="txt_policy30" >If you have any questions or concerns about our Privacy Policy or data processing, please contact us at developer email.</string>
+
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardItem"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_120sdp"
+    android:layout_marginHorizontal="@dimen/_10sdp"
+    android:layout_marginVertical="@dimen/_5sdp"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardElevation="0dp"
+    app:strokeWidth="0dp">
+
+    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivImageItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/screen_two_image" />
+
+        <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_alignParentBottom="true"
+            android:visibility="visible">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:fontFamily="@font/font"
+                android:text="22:22"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_8sdp" />
+
+            <RelativeLayout
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@drawable/bg_dialog">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/ivDelete"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_1sdp"
+                    android:src="@drawable/ic_delet_icon"
+                    android:tint="@color/black" />
+
+
+            </RelativeLayout>
+
+
+        </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

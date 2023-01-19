@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context="com.sound.bassbooster.volume.equalizer.introScreen.ScreenActivity1">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/banner_add"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:src="@drawable/screen_one_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_270sdp"
+                    android:layout_gravity="top"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_45sdp"
+                    android:src="@drawable/sp_text" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_200sdp">
+
+                    <LinearLayout
+                        android:id="@+id/native200"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_200sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:orientation="vertical" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/btn_next"
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:background="@drawable/btn_bg"
+                    android:gravity="center"
+                    android:text="Next"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <RelativeLayout
+            android:id="@+id/banner_add"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_65sdp"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+</layout>

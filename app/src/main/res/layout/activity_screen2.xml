@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context="com.sound.bassbooster.volume.equalizer.introScreen.ScreenActivity1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/native200"
+            android:padding="@dimen/_10sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/screen_two_image" />
+
+        <RelativeLayout
+            android:id="@+id/native200"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_above="@+id/btn_next"
+            android:orientation="vertical" />
+
+        <TextView
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:id="@+id/btn_next"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_above="@id/banner_add"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_bg"
+            android:gravity="center"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="normal" />
+
+        <RelativeLayout
+            android:id="@+id/banner_add"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_65sdp"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+</layout>

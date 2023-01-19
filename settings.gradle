@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        mavenLocal()
+        maven { url 'https://jitpack.io' }
+        mavenCentral()
+        jcenter()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenLocal()
+        mavenLocal()
+        maven { url 'https://jitpack.io' }
+        maven { url "https://oss.jfrog.org/libs-snapshot" }
+        mavenCentral()
+        jcenter()
+    }
+}
+rootProject.name = "Time_Warp_Scan"
+include ':app'

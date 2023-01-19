@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_dialog"
+    android:gravity="center"
+    android:minWidth="@dimen/_300sdp"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvLoadingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:text="Loading"
+        android:textAppearance="?textAppearanceTitleLarge"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:indeterminateTint="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:text="Please wait..."
+        android:textAppearance="?textAppearanceBody1"
+        android:textColor="@color/black" />
+
+</LinearLayout>

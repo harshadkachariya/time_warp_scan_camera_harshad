@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="terms_of_service">
+
+        <item>This Privacy Policy Explain the complete detail about which kind of detail we gathered
+            , Where we use , How to provide Security.
+            \nWe provide complete detail which kind of data we gather when user install any
+            application.
+            \nPlease take a moment to familiarize yourself with our privacy practices and let us
+            know if you have any questions.
+        </item>
+        <item>
+            <b>Personal Information</b>
+        </item>
+        <item>We DO NOT collect or gather any personal information while you visit, download or
+            upgrade any application, your personal information like your first name and last name,
+            physical addresses,
+            telephone numbers, fax numbers and information stored within your device. We will not
+            collect or store your Personal Information and we will not use, transfer or
+            disclose your Personal Information, excepting the personal information that you submit
+            to us when you create a user account, send an error report or participate in
+            online surveys and other activities. In the following circumstances, we may disclose
+            your personal information according to your wish or regulations by law:
+        </item>
+        <item>1. Your prior permission.
+            \n2. By the applicable law within or outside your country of residence, legal process,
+            litigation requests.
+            \n3. By requests from public and governmental authorities.
+            \n4. To protect our legal rights and interests.
+        </item>
+        <item>
+            <b>Permission in this Application:</b>
+        </item>
+        <item><b>INTERNET :</b>This permission is used for check internet connection is on or off.
+        </item>
+        <item><b>ACCESS_NETWORK_STATE :</b>This permission is used in settings and notification
+            toolbar, in order to view network connections.
+        </item>
+        <item><b>ACCESS_WIFI_STATE :</b>This permission is used in settings and notification toolbar
+            in order to connect and disconnect from Wi-Fi.
+        </item>
+        <item><b>WRITE_EXTERNAL_STORAGE :</b>This permission is used for modify in image from sd
+            card.
+        </item>
+        <item><b>CAMERA :</b>This permission used for taking photo from camera.
+        </item>
+        <item><b>READ_EXTERNAL_STORAGE :</b>This permission is used for to read or to see data which
+            available in sd card.
+        </item>
+        <item>
+            <b>PROTECTION YOUR PERSONAL INFORMATION</b>
+        </item>
+        <item>We take precautions — including administrative, technical, and physical measures — to
+            safeguard your personal information against loss, theft, and misuse, as well as against
+            unauthorized access, disclosure, alteration, and destruction.
+            \nWhen you use some products, services, or post your comments, the personal information
+            you share is visible to other users and can be read, collected, or used by them.
+            \nYou are responsible for the personal information you choose to submit in these
+            instances.
+            \nPlease take care when using these features.
+            \nTo make sure your personal information is secure; we communicate our privacy and
+            security guidelines to all members and strictly enforce privacy safeguards within the
+            team.
+        </item>
+        <item>
+            <b>Third Parties Sites</b>
+        </item>
+        <item>We use Google Admob SDK for advertisements in our applications.
+            \nRemember, there could be errors in the programming, and sometime programming errors
+            may cause unwanted side effects.carry advertisements from other companies.
+        </item>
+        <item>
+            <b>Children</b>
+        </item>
+        <item>We do not collect, use or disclose personal information from children.
+            \nIf you are under 13, you may use our website when you are with a parent or guardian.
+            \nWe do not provide service focus on Children.
+        </item>
+        <item>
+            <b>Update Privacy Policy</b>
+        </item>
+        <item>Our Privacy Policy may change from time to time, we will post any privacy policy
+            changes on this page, so please review it periodically.
+        </item>
+        <item>
+            <b>Contacting Us</b>
+        </item>
+        <item>If you have any questions or concerns about our Privacy Policy or data processing,
+            please contact us at
+        </item>
+    </array>
+</resources>

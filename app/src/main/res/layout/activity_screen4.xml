@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/native_add"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_below="@id/native_add"
+            android:fillViewport="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/ads_pref"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_15sdp"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:fontFamily="@font/regular"
+                    android:text="@string/terms_and_condition"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_18sdp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_below="@id/ads_pref"
+                    android:id="@+id/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:fontFamily="@font/regular"
+                    android:text="@string/promo_two"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:fontFamily="@font/regular"
+                    android:text="@string/promo_twoo"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_below="@id/text" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_25sdp"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:fontFamily="@font/regular"
+                    android:text="@string/promo_twooo"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_below="@id/text2" />
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:fontFamily="@font/regular"
+                    android:text="@string/promo_twoooo"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_below="@id/text3" />
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:fontFamily="@font/regular"
+                    android:text="@string/promo_twooooo"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_below="@id/text4" />
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:fontFamily="@font/regular"
+                    android:text="@string/promo_twoooooo"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_below="@id/text5" />
+
+                <TextView
+                    android:id="@+id/text7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:fontFamily="@font/regular"
+                    android:text="@string/promo_twooooooo"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_below="@id/text6" />
+
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+        <RelativeLayout
+            android:id="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_130sdp"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/btn_bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <CheckBox
+                android:id="@+id/accept_terms_and_conditions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_18sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="8dp"
+                android:checked="false"
+                android:fontFamily="@font/regular"
+                android:text="@string/i_agree_with_terms_amp_condition"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/btn_accept"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="@string/accept"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

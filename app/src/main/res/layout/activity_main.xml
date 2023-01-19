@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".ui.defaults.MainActivity">
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18sdp" />
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/ads_banner"
+            android:layout_below="@id/toolbar"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/btn_face_filter"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:src="@drawable/ic_face_time_wrap"/>
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/btn_water_fall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/ic_water_fall"/>
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/btn_my_creation"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/ic_my_creation"/>
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+        <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+            android:id="@+id/ads_banner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_65sdp"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+</layout>
