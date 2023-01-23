@@ -23,8 +23,6 @@ public class SplashActivity extends BaseActivity {
         setLightTheme(true);
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_splash);
-
-
         Aanibrothers.subscribeNotification(this);
         Aanibrothers.configureNotification(this,getResources().getString(R.string.app_name),R.drawable.ic_vector,R.color.transperent);
 
@@ -53,4 +51,5 @@ public class SplashActivity extends BaseActivity {
     public void onBackPressed() {
 
     }
+
 }

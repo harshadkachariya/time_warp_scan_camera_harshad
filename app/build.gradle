@@ -80,7 +80,7 @@ dependencies {
      * AaniModule ads
      */
 
-    implementation 'com.github.Aanibrothers-Infotech:AaniModule:0.5.1'
+    implementation 'com.github.Aanibrothers-Infotech:AaniModule:0.5.2'
 
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
 

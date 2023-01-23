@@ -56,9 +56,7 @@
                     android:src="@drawable/ic_delet_icon"
                     android:tint="@color/black" />
 
-
             </RelativeLayout>
-
 
         </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
 
